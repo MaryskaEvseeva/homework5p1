@@ -9,7 +9,7 @@ public class FreelanserService {
                 // отдыхаем
                 money -= expense;
                 money /= 3;
-                monthsRest++;
+                monthsRest ++;
             } else {
                 // работаем
                 money += income;

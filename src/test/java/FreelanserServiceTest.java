@@ -3,13 +3,15 @@ import org.junit.jupiter.api.Test;
 
 public class FreelanserServiceTest {
     @Test
-    public void testCalculate() {
+    public void testCalculate1() {
         FreelanserService service = new FreelanserService();
 
-        int actual = service.calculate(10_000, 30_000, 20_000);
+        int actual = service.calculate(10_000, 3_000, 20_000);
         int expected = 3;
 
         Assertions.assertEquals(expected, actual);
+
+
     }
 
     @Test
